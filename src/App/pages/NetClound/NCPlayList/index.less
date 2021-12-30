@@ -1,0 +1,36 @@
+.play-list-container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .ant-card-meta-description{
+        text-overflow: -o-ellipsis-lastline;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        line-clamp: 2;
+        -webkit-box-orient: vertical;
+    }
+    .play-list-card{
+        width: 280px;
+        margin: 20px;
+        .ant-card-actions{
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            left: 0px;
+            .card-action-item{
+                font-size: 10px;
+            }
+        }
+    }
+    
+    
+}
+
+.play-list-detail{
+    .ant-page-header{
+        padding: 0px;
+    }
+}
